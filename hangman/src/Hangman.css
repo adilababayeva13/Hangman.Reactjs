@@ -1,0 +1,69 @@
+.board{
+   width:200px;
+   height:180px;
+   border-radius:25px;
+   box-shadow: 0px 10px 15px black;
+   border:5px dotted black;
+   background-color:aliceblue; 
+}
+.board-title{
+  text-align: center;
+}
+.grid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    flex-direction: column;
+}
+
+.hangImg{
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    opacity:0.7;
+    border-radius:50px
+}
+.button{
+    margin:5px;
+    color:white;
+    background-color:black;
+    width:40px;
+    height: 40px;
+    border: none;
+    border-radius:50%;
+  
+}
+.button:hover{
+    box-shadow: 00px 0px 20px gold;
+    cursor: pointer;
+    border:3px groove  gold;
+}
+.solaGetBezdim{
+    display:flex;
+    float:left;
+    flex-direction: row;
+}
+.BTN{
+    width:130px;
+    height:30px;
+    float:left;
+    border-radius: 10px;
+    border: 3px groove black;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight:700;
+}
+.yellow{
+    background:yellow;
+}
+.pink{
+    background:pink;
+}
+.BTN:hover{
+    color:white;
+    background:skyblue;
+    cursor: pointer;
+    border: 2px groove gold;
+}
