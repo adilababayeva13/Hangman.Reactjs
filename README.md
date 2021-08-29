@@ -5,7 +5,7 @@
 ## Instructions
 
 ```bash
+cd hangman
 npm install
-cd hangman 
 npm start
 ```
